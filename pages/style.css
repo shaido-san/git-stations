@@ -23,10 +23,6 @@ footer {
     color: white;
     height: 150px;
   }
-#menu {
-  width: 90vw;
-  margin: 0 5vw;
-}
 
 #menu > h2 {
   text-align: center;
@@ -55,11 +51,25 @@ footer {
 }
 
 #drink-list > table {
+=======
+#food {
+  width: 100%;
+}
+
+#food > h3 {
+  width: 50vw;
+  margin: 0 5vw 25px auto;
+  text-align: center;
+}
+
+#food-list > table {
+>>>>>>> feature/food-style
   width: 35%;
   margin-right: 5%;
   margin-left: 10%;
 }
 
+<<<<<<< HEAD
 #drink-image {
   height: 45vh;
   width: 50%;
@@ -67,6 +77,15 @@ footer {
 }
 
 #drink-image > img {
+=======
+#food-image {
+  height: 45vh;
+  width: 40%;
+  text-align: center;
+}
+
+#food-image > img {
+>>>>>>> feature/food-style
   height: 100%;
   border-radius: 50%;
 }
